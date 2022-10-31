@@ -6,7 +6,22 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Elvis_FaceAnimMap
+    second: {fileID: 2800000, guid: e3097af195a94cd4290ab408df6171f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FatElvis_diffuse
+    second: {fileID: 2800000, guid: f749cb512a625d748a52c015dec46c4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FatElvis_normal
+    second: {fileID: 2800000, guid: a718e363cfe26854aa2ffd6d6b13eccf, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
