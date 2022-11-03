@@ -1,0 +1,65 @@
+{
+    "GuitarSearch": {
+        "checkpoints": [
+            {
+                "steps": 3499960,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-3499960.onnx",
+                "reward": 0.07712508961558343,
+                "creation_time": 1667439279.8767998,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-3499960.pt"
+                ]
+            },
+            {
+                "steps": 3999994,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-3999994.onnx",
+                "reward": 0.15333341176693255,
+                "creation_time": 1667439798.862076,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-3999994.pt"
+                ]
+            },
+            {
+                "steps": 4499987,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-4499987.onnx",
+                "reward": 0.08607151678630284,
+                "creation_time": 1667440315.3958375,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-4499987.pt"
+                ]
+            },
+            {
+                "steps": 4999999,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-4999999.onnx",
+                "reward": 0.16103904820107795,
+                "creation_time": 1667440838.070991,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-4999999.pt"
+                ]
+            },
+            {
+                "steps": 5000022,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-5000022.onnx",
+                "reward": 0.16064111238870865,
+                "creation_time": 1667440838.1557634,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-5000022.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000022,
+            "file_path": "results\\Run1\\GuitarSearch.onnx",
+            "reward": 0.16064111238870865,
+            "creation_time": 1667440838.1557634,
+            "auxillary_file_paths": [
+                "results\\Run1\\GuitarSearch\\GuitarSearch-5000022.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

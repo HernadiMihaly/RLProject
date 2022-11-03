@@ -1,0 +1,38 @@
+{
+    "GuitarSearch": {
+        "checkpoints": [
+            {
+                "steps": 499995,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-499995.onnx",
+                "reward": -1.1057332277297973,
+                "creation_time": 1667410599.3973193,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-499995.pt"
+                ]
+            },
+            {
+                "steps": 500059,
+                "file_path": "results\\Run1\\GuitarSearch\\GuitarSearch-500059.onnx",
+                "reward": -1.1057332277297973,
+                "creation_time": 1667410599.4701524,
+                "auxillary_file_paths": [
+                    "results\\Run1\\GuitarSearch\\GuitarSearch-500059.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500059,
+            "file_path": "results\\Run1\\GuitarSearch.onnx",
+            "reward": -1.1057332277297973,
+            "creation_time": 1667410599.4701524,
+            "auxillary_file_paths": [
+                "results\\Run1\\GuitarSearch\\GuitarSearch-500059.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

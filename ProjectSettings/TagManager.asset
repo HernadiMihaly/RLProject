@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - TargetGuitar
+  - Wall
+  - OtherEquipment
+  - FanGirl
   layers:
   - Default
   - TransparentFX
