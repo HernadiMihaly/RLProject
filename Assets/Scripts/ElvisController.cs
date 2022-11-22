@@ -30,10 +30,7 @@ public class ElvisController: Agent
     {
         transform.localPosition = new Vector3(0, 0, -3);
 
-        // Generate a random position for the treasure prefab 
-        float xPosition = UnityEngine.Random.Range(-3.75f, 5);
-
-        // Randomizing guitars' and equipments' positions
+        // Randomizing guitars' positions
         RandomizeGuitars();
 
         //Placing fangirl to her base position
@@ -55,11 +52,11 @@ public class ElvisController: Agent
         sensor.AddObservation(transform.localPosition.x);
         sensor.AddObservation(transform.localPosition.y);
 
-        // The position of the treasure prefab
+        // The position of the target guitar
         sensor.AddObservation(TargetTransform.localPosition.x);
         sensor.AddObservation(TargetTransform.localPosition.y);
 
-        // The distance between the agent and the treasure
+        // The distance between the agent and the guitar
         sensor.AddObservation(Vector3.Distance(TargetTransform.localPosition, transform.localPosition));
     }
 
